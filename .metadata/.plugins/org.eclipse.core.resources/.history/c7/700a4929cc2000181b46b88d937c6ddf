@@ -1,0 +1,17 @@
+package notes;
+
+public class StringCompareTo {
+	String a = "blah";
+	String ayy = "ayy"
+
+	if (a.compareTo(b)<0) {
+		// This will happen if a is less than b
+		// HOWEVER, compareTo thinks all upper case characters
+		// are less than ALL lower case characters
+		// so a.compareTo(b) will actually give a positive number
+	}
+	if(a.compareToIgnoreCase(b)<0)
+	{
+		// This will work as expected
+	}
+}}
